@@ -1,0 +1,22 @@
+{
+    "name": "mafria/mframework",
+    "description": "Personal framework for starter",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mframework\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Drajat Hasan",
+            "email": "drajathasan20@gmail.com"
+        }
+    ]
+}
